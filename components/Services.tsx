@@ -78,7 +78,7 @@ export const Services: React.FC<{ onBook: (service: any) => void }> = ({ onBook 
 
                         {/* Action hint - Always visible now */}
                         <div className="transition-opacity duration-300">
-                            <span className="px-4 py-2 bg-white/20 backdrop-blur-md text-white text-xs uppercase tracking-widest rounded-full border border-white/30 hover:bg-white hover:text-tf-purple transition-colors">
+                            <span className="px-10 py-4 bg-white backdrop-blur-md text-tf-purple font-semibold text-xs uppercase tracking-widest rounded-full border border-white/30 hover:bg-tf-purple hover:text-white transition-colors">
                                 Réserver
                             </span>
                         </div>

@@ -15,15 +15,19 @@ export const Header: React.FC = () => {
 
   return (
     <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-6'
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-12 ${
+        isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm ' : 'bg-transparent'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between">
-          {/* Logo */}
-          <a href="#" className="relative z-50 hover:opacity-80 transition-opacity">
-            <Logo variant="dark" />
+        <div className="flex items-center justify-between relative">
+          {/* Logo - we position it absolutely so we can animate it from left to center */}
+          <a
+            href="#"
+            className={`absolute top-1/2 transform -translate-y-1/2 transition-all duration-500 ease-out z-50 ${isScrolled ? 'left-1/2 -translate-x-1/2' : 'left-4 -translate-x-0'}`}
+            aria-label="Touche Finale - Accueil"
+          >
+            <Logo variant="dark" isScrolled={isScrolled} />
           </a>
 
           {/* Menu supprimé comme demandé */}

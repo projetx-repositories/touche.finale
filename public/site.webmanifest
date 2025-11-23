@@ -1,0 +1,12 @@
+{
+  "name": "Touche Finale",
+  "short_name": "ToucheFinale",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6d286b",
+  "icons": [
+    { "src": "/logo-r.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/logo-r.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

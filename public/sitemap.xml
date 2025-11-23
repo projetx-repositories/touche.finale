@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Replace example.com with your real domain and add more URLs as needed -->
+  <!-- Sitemap for touchefinale.vercel.app - add more URLs as needed -->
   <url>
-    <loc>https://www.example.com/</loc>
+    <loc>https://touchefinale.vercel.app/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
