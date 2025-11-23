@@ -26,9 +26,9 @@ export const Logo: React.FC<{ className?: string, variant?: 'dark' | 'light', is
   // Conditional classes for smooth header transition
   // Animate gap/position smoothly and avoid removing the text element instantly (no `hidden`)
   const containerClasses = `flex items-center transition-all duration-700 ease-out ${isScrolled ? 'justify-center gap-0' : 'gap-2'} ${className}`;
-  const imgClasses = `w-full h-full object-contain drop-shadow-sm transform transition-transform duration-500 ease-out ${isScrolled ? 'scale-125' : 'scale-105'}`;
+  const imgClasses = `w-full h-full object-contain drop-shadow-sm transform transition-transform duration-700 ease-out ${isScrolled ? 'scale-125' : 'scale-105'}`;
   // Use opacity + transform for smooth hiding; avoid `hidden` which is abrupt
-  const textWrapperClasses = `flex flex-col justify-center transform transition-opacity transition-transform duration-800 ease-out ${isScrolled ? 'opacity-0 -translate-y-2 hidden pointer-events-none' : 'opacity-100 translate-y-0'}`;
+  const textWrapperClasses = `flex flex-col justify-center transform transition-opacity transition-transform duration-700 ease-out ${isScrolled ? 'opacity-0 -translate-y-2 hidden pointer-events-none' : 'opacity-100 translate-y-0'}`;
 
   return (
     <Reveal className={`delay-150 ${className}`}>

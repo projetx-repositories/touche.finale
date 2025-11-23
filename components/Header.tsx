@@ -3,6 +3,8 @@ import { Logo } from './Logo';
 
 export const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [_isScrolled, _setIsScrolled] = useState(false);
+
 
   // Handle scroll for header transparency/blur effect
   useEffect(() => {
@@ -13,9 +15,17 @@ export const Header: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    const _handleScroll = () => {
+      _setIsScrolled(window.scrollY > 600);
+    };
+    window.addEventListener('scroll', _handleScroll);
+    return () => window.removeEventListener('scroll', _handleScroll);
+  }, []);
+
   return (
     <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-12 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${ _isScrolled ? 'py-8' : 'py-12'} ${
         isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm ' : 'bg-transparent'
       }`}
     >
