@@ -1,6 +1,7 @@
 import React from 'react';
 import Reveal from './Reveal';
 
+
 // Ce composant affiche le logo.
 // J'ai configuré le code pour utiliser votre image "logo.png".
 // Assurez-vous de placer votre image nommée "logo.png" dans le dossier public du projet.
@@ -15,7 +16,7 @@ export const Logo: React.FC<{ className?: string, variant?: 'dark' | 'light' }> 
          {/* Conteneur de l'image du logo */}
         <div className="relative w-20 h-20 flex items-center justify-center">
            <img 
-              src="/logo-r.png" 
+              src="logo-r.png" 
               alt="Logo Touche Finale"
               className="w-full h-full object-contain drop-shadow-sm"
            />

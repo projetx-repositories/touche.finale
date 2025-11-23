@@ -16,7 +16,7 @@ export const SERVICES = [
     description: "L'art de sublimer vos cheveux, du soin profond à la coupe tendance.",
     icon: Scissors,
     images: [
-        "https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=1000&auto=format&fit=crop", 
+        "logo-r.png", 
         "https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=1000&auto=format&fit=crop"
     ],
     details: ["Coupe sur mesure", "Soin profond", "Tresses & Nattes", "Coloration"],
