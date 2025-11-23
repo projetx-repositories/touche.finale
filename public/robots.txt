@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.example.com/sitemap.xml
+
+# Crawl-delay for gentle crawling (optional)
+# Crawl-delay: 10

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Touche Finale - Salon de Coiffure & Esthétique</title>
+    <meta name="description" content="Salon de coiffure et esthétique à Brazzaville. Coiffure, maquillage, soins de visage, manucure et pédicure." />
+    
+  <!-- Primary SEO tags -->
+  <link rel="canonical" href="https://www.example.com/"> <!-- mettez l'URL réelle du site ici -->
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Touche Finale - Salon de Coiffure & Esthétique" />
+  <meta property="og:description" content="Salon de coiffure et esthétique à Brazzaville. Coiffure, maquillage, soins de visage, manucure et pédicure." />
+  <meta property="og:url" content="https://www.example.com/" />
+  <meta property="og:site_name" content="Touche Finale" />
+  <meta property="og:image" content="/social-share.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Touche Finale - Salon de Coiffure & Esthétique" />
+  <meta name="twitter:description" content="Salon de coiffure et esthétique à Brazzaville. Coiffure, maquillage, soins de visage, manucure et pédicure." />
+  <meta name="twitter:image" content="/social-share.png" />
+
+  <!-- Favicon / PWA icons (place your icon files in the project's public/ folder) -->
+  <!-- <link rel="icon" href="/favicon.ico"> -->
+  <link rel="icon" type="image/png" sizes="128x128" href="/logo-r.png">
+  <!-- <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png"> -->
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"> -->
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#6d286b">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Playfair Display for headings, Lato for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'tf-purple': '#6d286b', // Deep purple from the poster
+              'tf-light': '#f8f5fa',  // Very light purple/white for backgrounds
+              'tf-gold': '#bf9b30',   // Accent gold often found in luxury salons
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', 'serif'],
+              sans: ['"Lato"', 'sans-serif'],
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-out forwards',
+              'fade-in-up': 'fadeInUp 0.5s ease-out forwards',
+              'breathe': 'breathe 6s ease-in-out infinite',
+              'float-slow': 'float 4s ease-in-out infinite',
+              'float-medium': 'float 5s ease-in-out infinite',
+              'float-fast': 'float 6s ease-in-out infinite',
+              'twinkle': 'twinkle 2s ease-in-out infinite',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              breathe: {
+                '0%, 100%': { transform: 'scale(1)' },
+                '50%': { transform: 'scale(1.05)' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
+                '50%': { transform: 'translateY(-15px) rotate(5deg)' },
+              },
+              twinkle: {
+                '0%, 100%': { opacity: '0', transform: 'scale(0.5)' },
+                '50%': { opacity: '1', transform: 'scale(1.2)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+    
+    <!-- Structured data: LocalBusiness (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BeautySalon",
+      "name": "Touche Finale",
+      "image": ["/social-share.png", "/favicon-32.png"],
+      "@id": "https://www.example.com/",
+      "url": "https://www.example.com/",
+      "telephone": "+242 06 474 18 33",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ruelle Charle Ebina, Non loin de l'Hôtel Saphir",
+        "addressLocality": "Brazzaville",
+        "addressCountry": "CG"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude":  -4.266667,
+        "longitude": 15.283333
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "08:00",
+        "closes": "19:00"
+      }]
+    }
+    </script>
+</head>
+  <body class="bg-white text-gray-800 antialiased">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
