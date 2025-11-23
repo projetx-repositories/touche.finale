@@ -6,7 +6,7 @@ import { Sparkle, Feather } from 'lucide-react';
 
 export const Hero: React.FC<{ onBook: () => void }> = ({ onBook }) => {
   return (
-    <section className="relative min-h-screen flex items-center pt-32 overflow-hidden bg-gradient-to-br from-white via-tf-light to-pink-50">
+    <section className="relative min-h-screen flex items-center py-24 overflow-hidden bg-gradient-to-b from-violet-50 via-tf-light to-pink-100">
       {/* Decorative blobs */}
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-purple-100 rounded-full blur-3xl opacity-50"></div>
       <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-72 h-72 bg-pink-100 rounded-full blur-3xl opacity-50"></div>
@@ -37,7 +37,7 @@ export const Hero: React.FC<{ onBook: () => void }> = ({ onBook }) => {
             */}
             <div className="relative z-10 w-full max-w-md aspect-[3/4] rounded-t-full rounded-b-full overflow-hidden border-8 border-white shadow-2xl">
                <img 
-                src="https://images.unsplash.com/photo-1560869713-7d0a29430803?q=80&w=1000&auto=format&fit=crop" 
+                src="./assets/tresse-5.jpeg" 
                 alt="Coiffure artistique" 
                 className="w-full h-full object-cover animate-breathe"
                />

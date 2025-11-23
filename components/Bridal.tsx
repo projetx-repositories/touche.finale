@@ -6,13 +6,13 @@ export const Bridal: React.FC = () => {
   const message = encodeURIComponent("Bonjour, je souhaite des informations pour un mariage.");
   
   return (
-    <section id="mariage" className="py-24 bg-tf-purple text-white overflow-hidden relative scroll-mt-20">
+    <section id="mariage" className="py-24 bg-purple-900/85 text-white overflow-hidden relative scroll-mt-20">
         {/* Background Image Overlay */}
-        <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 z-0 bg-black/45">
              <img 
-                src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=2000&auto=format&fit=crop"
+                src="./assets/mariage.jpeg"
                 alt="Mariage"
-                className="w-full h-full object-cover opacity-20 mix-blend-overlay"
+                className="w-full h-full object-cover opacity-20 bg-black mix-blend-overlay"
              />
         </div>
 
@@ -48,12 +48,12 @@ export const Bridal: React.FC = () => {
 
           <div className="lg:w-1/2 grid grid-cols-2 gap-4">
             <img 
-                src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=600&auto=format&fit=crop" 
+                src="./assets/manucure-1.jpeg" 
                 alt="Maquillage mariée" 
-                className="rounded-2xl translate-y-8 shadow-2xl"
+                className="rounded-2xl translate-y-8 ratio shadow-2xl"
             />
             <img 
-                src="https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=600&auto=format&fit=crop" 
+                src="./assets/tresse-2.jpeg" 
                 alt="Coiffure mariée" 
                 className="rounded-2xl -translate-y-8 shadow-2xl"
             />

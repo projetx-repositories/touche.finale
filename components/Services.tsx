@@ -14,7 +14,7 @@ export const Services: React.FC<{ onBook: (service: any) => void }> = ({ onBook 
   }, []);
 
   return (
-    <section id="services" className="py-20 bg-white relative scroll-mt-20">
+    <section id="services" className="py-20 bg-pink-100 relative scroll-mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Reveal className="reveal--slide-up delay-150">
           <div className="text-center max-w-3xl mx-auto mb-16">
@@ -78,7 +78,7 @@ export const Services: React.FC<{ onBook: (service: any) => void }> = ({ onBook 
 
                         {/* Action hint - Always visible now */}
                         <div className="transition-opacity duration-300">
-                            <span className="px-10 py-4 bg-white backdrop-blur-md text-tf-purple font-semibold text-xs uppercase tracking-widest rounded-full border border-white/30 hover:bg-tf-purple hover:text-white transition-colors">
+                            <span className="px-10 py-3 bg-white backdrop-blur-md text-tf-purple font-semibold text-xs uppercase tracking-widest rounded-full border border-white/30 hover:bg-tf-purple hover:text-white transition-colors">
                                 Réserver
                             </span>
                         </div>

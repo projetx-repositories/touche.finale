@@ -16,8 +16,8 @@ export const SERVICES = [
     description: "L'art de sublimer vos cheveux, du soin profond à la coupe tendance.",
     icon: Scissors,
     images: [
-        "logo-r.png", 
-        "https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=1000&auto=format&fit=crop"
+        "./assets/tresse.jpeg",
+        "./assets/tresse-3.jpeg"
     ],
     details: ["Coupe sur mesure", "Soin profond", "Tresses & Nattes", "Coloration"],
     subServices: [
@@ -34,8 +34,8 @@ export const SERVICES = [
     description: "Une pose indétectable pour un résultat naturel et sophistiqué.",
     icon: Feather,
     images: [
-        "https://images.unsplash.com/photo-1595476103518-71d72f785292?q=80&w=1000&auto=format&fit=crop", 
-        "https://images.unsplash.com/photo-1582095133179-e3c716d93f1e?q=80&w=1000&auto=format&fit=crop"
+        "./assets/perruque-1.jpeg",
+        "./assets/perruque.jpeg"
     ],
     details: ["Pose perruque", "Customisation", "Lissage", "Entretien"],
     subServices: [
@@ -51,8 +51,8 @@ export const SERVICES = [
     description: "Révélez l'éclat de votre peau avec nos rituels de soins visage.",
     icon: Sparkles,
     images: [
-        "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=1000&auto=format&fit=crop", 
-        "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1000&auto=format&fit=crop"
+        "./assets/mask.jpeg", 
+        "./assets/mask-1.jpeg"
     ],
     details: ["Soins visage", "Épilation", "Gommage", "Douceur"],
     subServices: [
@@ -69,8 +69,8 @@ export const SERVICES = [
     description: "L'élégance jusqu'au bout des doigts.",
     icon: Smile, 
     images: [
-        "https://images.unsplash.com/photo-1632345031435-8727f6897d53?q=80&w=1000&auto=format&fit=crop", 
-        "https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=1000&auto=format&fit=crop"
+        "./assets/manucure.jpeg",
+        "./assets/manucure-2.jpeg"
     ],
     details: ["Manucure", "Pédicure", "Gel & Vernis", "Nail Art"],
     subServices: [
@@ -86,8 +86,8 @@ export const SERVICES = [
     description: "Soyez la reine de votre événement avec une mise en beauté royale.",
     icon: Crown,
     images: [
-        "https://images.unsplash.com/photo-1546171753-97d7676e4602?q=80&w=1000&auto=format&fit=crop", 
-        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=1000&auto=format&fit=crop"
+        "./assets/mariage.jpeg", 
+        "./assets/mariage-1.jpeg"
     ],
     details: ["Forfait Mariée", "Maquillage", "Habillage", "Coiffure"],
     subServices: [
@@ -103,8 +103,8 @@ export const SERVICES = [
     description: "Sublimez vos traits avec un maquillage adapté à votre morphologie.",
     icon: Palette,
     images: [
-        "https://images.unsplash.com/photo-1487412947132-26c2449ffdd1?q=80&w=1000&auto=format&fit=crop", 
-        "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=1000&auto=format&fit=crop"
+        "./assets/makeup.jpeg",
+        "./assets/makeup-1.jpeg"
     ],
     details: ["Maquillage Jour", "Maquillage Soir", "Sourcils", "Conseils"],
     subServices: [
