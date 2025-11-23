@@ -48,12 +48,12 @@ export const Bridal: React.FC = () => {
 
           <div className="lg:w-1/2 grid grid-cols-2 gap-4">
             <img 
-                src="./assets/manucure-1.jpeg" 
+                src="/assets/manucure-1.jpeg" 
                 alt="Maquillage mariée" 
                 className="rounded-2xl translate-y-8 ratio shadow-2xl"
             />
             <img 
-                src="./assets/tresse-2.jpeg" 
+                src="/assets/tresse-2.jpeg" 
                 alt="Coiffure mariée" 
                 className="rounded-2xl -translate-y-8 shadow-2xl"
             />
