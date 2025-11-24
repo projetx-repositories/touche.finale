@@ -5,6 +5,7 @@ import { Services } from './components/Services';
 import { Bridal } from './components/Bridal';
 import { Footer } from './components/Footer';
 import { BookingModal } from './components/BookingModal';
+import SEO from './components/SEO';
 
 const App: React.FC = () => {
   const [isBookingOpen, setIsBookingOpen] = useState(false);
@@ -17,6 +18,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white font-sans text-gray-900 selection:bg-purple-100 selection:text-purple-900">
+      <SEO />
       <Header />
       
       <main>
