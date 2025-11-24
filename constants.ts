@@ -16,8 +16,8 @@ export const SERVICES = [
     description: "L'art de sublimer vos cheveux, du soin profond à la coupe tendance.",
     icon: Scissors,
     images: [
-        "/assets/tresse.jpeg",
-        "/assets/tresse-3.jpeg"
+        "assets/tresse.jpeg",
+        "assets/tresse-3.jpeg"
     ],
     details: ["Coupe sur mesure", "Soin profond", "Tresses & Nattes", "Coloration"],
     subServices: [
@@ -34,8 +34,8 @@ export const SERVICES = [
     description: "Une pose indétectable pour un résultat naturel et sophistiqué.",
     icon: Feather,
     images: [
-        "/assets/perruque-1.jpeg",
-        "/assets/perruque.jpeg"
+        "assets/perruque-1.jpeg",
+        "assets/perruque.jpeg"
     ],
     details: ["Pose perruque", "Customisation", "Lissage", "Entretien"],
     subServices: [
@@ -51,8 +51,8 @@ export const SERVICES = [
     description: "Révélez l'éclat de votre peau avec nos rituels de soins visage.",
     icon: Sparkles,
     images: [
-        "/assets/mask.jpeg", 
-        "/assets/mask-1.jpeg"
+        "assets/mask.jpeg", 
+        "assets/mask-1.jpeg"
     ],
     details: ["Soins visage", "Épilation", "Gommage", "Douceur"],
     subServices: [
@@ -69,8 +69,8 @@ export const SERVICES = [
     description: "L'élégance jusqu'au bout des doigts.",
     icon: Smile, 
     images: [
-        "/assets/manucure.jpeg",
-        "/assets/manucure-2.jpeg"
+        "assets/manucure.jpeg",
+        "assets/manucure-2.jpeg"
     ],
     details: ["Manucure", "Pédicure", "Gel & Vernis", "Nail Art"],
     subServices: [
@@ -86,8 +86,8 @@ export const SERVICES = [
     description: "Soyez la reine de votre événement avec une mise en beauté royale.",
     icon: Crown,
     images: [
-        "/assets/mariage.jpeg", 
-        "/assets/mariage-1.jpeg"
+        "assets/mariage.jpeg", 
+        "assets/mariage-1.jpeg"
     ],
     details: ["Forfait Mariée", "Maquillage", "Habillage", "Coiffure"],
     subServices: [
@@ -103,8 +103,8 @@ export const SERVICES = [
     description: "Sublimez vos traits avec un maquillage adapté à votre morphologie.",
     icon: Palette,
     images: [
-        "/assets/makeup.jpeg",
-        "/assets/makeup-1.jpeg"
+        "assets/makeup.jpeg",
+        "assets/makeup-1.jpeg"
     ],
     details: ["Maquillage Jour", "Maquillage Soir", "Sourcils", "Conseils"],
     subServices: [

@@ -37,7 +37,7 @@ export const Hero: React.FC<{ onBook: () => void }> = ({ onBook }) => {
             */}
             <div className="relative z-10 w-full max-w-md aspect-[3/4] rounded-t-full rounded-b-full overflow-hidden border-8 border-white shadow-2xl">
                <img 
-                src="./assets/tresse-5.jpeg" 
+                src="../assets/tresse-5.jpeg" 
                 alt="Coiffure artistique" 
                 className="w-full h-full object-cover animate-breathe"
                />

@@ -44,7 +44,7 @@ export const Services: React.FC<{ onBook: (service: any) => void }> = ({ onBook 
                         }`}
                     >
                         <img 
-                            src={`${img}`} 
+                            src={`../${img}`} 
                             alt={service.title}
                             className="w-full h-full object-cover transition-transform duration-[3000ms] group-hover:scale-110"
                         />
